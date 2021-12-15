@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var top100Button: UIButton!
+    @IBOutlet weak var searchByNameButton: UIButton!
+    @IBOutlet weak var yourCollectionButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-pattern.jpeg")!)
     }
-
 
 }
 
